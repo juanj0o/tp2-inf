@@ -28,7 +28,7 @@ def graficar_señal(señal):
     tiempo = np.arange(0, N) / frec
 
     plt.figure(figsize=(10, 4))
-    plt.plot(tiempo, datos_recortados)
+    plt.plot(tiempo, audio_recortado)
     plt.title(f"señal de {señal}")
     plt.xlabel('Tiempo (segundos)')
     plt.ylabel('Amplitud')
